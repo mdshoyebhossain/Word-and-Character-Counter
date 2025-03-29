@@ -2,7 +2,7 @@
 
 A simple web tool to count words, characters (with and without spaces) in your text.
 
-![Screenshot]([https://www.omoewp.com/images/word-counter.jpg]) <!-- Add a screenshot later -->
+![Screenshot](https://www.omoewp.com/images/word-counter.jpg) <!-- Add a screenshot later -->
 
 ## Features
 - Real-time counting
@@ -15,7 +15,7 @@ A simple web tool to count words, characters (with and without spaces) in your t
 2. See instant counts below
 
 ## Live Demo
-[View Demo](https://mdshoyebhossain.github.io/Word-and-Character-Counter/)
+[View Demo](https://mdshoyebhossain.github.io/Word-and-Character-Counter/](https://www.omoewp.com/word-counter/)
 
 ## License
 MIT
