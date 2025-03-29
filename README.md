@@ -2,7 +2,7 @@
 
 A simple web tool to count words, characters (with and without spaces) in your text.
 
-![Screenshot](https://www.omoewp.com/images/word-counter.jpg) <!-- Add a screenshot later -->
+![Screenshot](word-counter.jpg) <!-- Add a screenshot later -->
 
 ## Features
 - Real-time counting
