@@ -1,0 +1,110 @@
+/* General Styles */
+body {
+     font-family: Arial, sans-serif;
+     background-color: #f4f4f9;
+     color: #333;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     min-height: 100vh;
+     margin: 0;
+     padding: 20px;
+     box-sizing: border-box;
+ }
+ 
+ .container {
+     background-color: #fff;
+     padding: 20px;
+     border-radius: 10px;
+     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+     max-width: 1000px;
+     width: 100%;
+     text-align: center;
+ }
+ 
+ h1 {
+     font-size: 24px;
+     margin-bottom: 20px;
+ }
+ 
+ textarea {
+     width: 100%;
+     padding: 10px;
+     border: 2px solid #ddd;
+     border-radius: 5px;
+     font-size: 16px;
+     resize: vertical;
+     transition: border-color 0.3s ease;
+     box-sizing: border-box;
+ }
+ 
+ textarea:focus {
+     border-color: #007bff;
+     outline: none;
+ }
+ 
+ .counters {
+     margin-top: 20px;
+     display: flex;
+     justify-content: space-between;
+     flex-wrap: wrap;
+     gap: 10px;
+ }
+ 
+ .counters p {
+     font-size: 18px;
+     margin: 0;
+ }
+ 
+ .counters span {
+     font-weight: bold;
+     color: #007bff;
+     animation: pop 0.3s ease;
+ }
+ 
+ /* Animation */
+ @keyframes pop {
+     0% {
+         transform: scale(1);
+     }
+     50% {
+         transform: scale(1.2);
+     }
+     100% {
+         transform: scale(1);
+     }
+ }
+ 
+ /* Responsive Design */
+ @media (max-width: 600px) {
+     h1 {
+         font-size: 20px;
+     }
+ 
+     textarea {
+         font-size: 14px;
+     }
+ 
+     .counters p {
+         font-size: 16px;
+     }
+ 
+     .counters {
+         flex-direction: column;
+         align-items: center;
+     }
+ }
+ 
+ @media (max-width: 400px) {
+     h1 {
+         font-size: 18px;
+     }
+ 
+     textarea {
+         font-size: 12px;
+     }
+ 
+     .counters p {
+         font-size: 14px;
+     }
+ }
