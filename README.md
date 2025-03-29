@@ -18,4 +18,4 @@ A simple web tool to count words, characters (with and without spaces) in your t
 [View Demo](https://www.omoewp.com/word-counter/)
 
 ## License
-(LICENSE.md)
+(https://github.com/mdshoyebhossain/Word-and-Character-Counter/blob/main/LICENSE.md)
